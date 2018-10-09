@@ -2,6 +2,8 @@ print(" ♣ Välkommen till finns i sjön ♣ \n")
 print("1.Starta\n"
 +"2.Avsluta\n")
 
+import random
+
 # ♠ ♥ ♦ ♣ Spader, hjärter, ruter och klöver
 
 kort = ["Ess", "2", "3", "4", "5","6", "7", "8", "9","10", "Knekt", "Dam","Kung"]
@@ -22,7 +24,7 @@ while meny != 2:
 
     if meny == 1:
         print("\nLoading…\n"
-        +"\n██ 39% \n"
+        +"\n██ 32% \n"
         +"\n███ 49% \n"
         +"\n████ 76% \n"
         +"\n█████ 89% \n"
@@ -38,3 +40,8 @@ while meny != 2:
 #while kort != 100:
     #typ = int(input("Vilken typ av kort: "))
     #kort = int(input("Skriv in kort: "))
+
+#print("Välj spelare: "
+#+""
+#+"Visa poäng"
+#+"")
