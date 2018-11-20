@@ -6,7 +6,7 @@ import random
 
 # ♠ ♥ ♦ ♣ Spader, hjärter, ruter och klöver
 
-kort = ["Ess", "2", "3", "4", "5","6", "7", "8", "9","10", "Knekt", "Dam","Kung"]
+kort = ["Ess", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Knekt", "Dam", "Kung"]
 typ = ["♠ Spader ♠"," ♥ Hjärter ♥", "♦ Ruter ♦", "♣ Klöver ♣"]
 
 hand = []
@@ -41,7 +41,7 @@ while meny != 2:
     #typ = int(input("Vilken typ av kort: "))
     #kort = int(input("Skriv in kort: "))
 
-#print("Välj spelare: "
+#print("Skriv in spelare: "
 #+""
 #+"Visa poäng"
 #+"")
